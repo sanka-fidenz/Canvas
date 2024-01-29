@@ -6,8 +6,12 @@ class Circle extends Shape {
     this.radius = radius;
   }
 
-  calArea() {
-    return (22 / 7) * this.radius * this.radius;
+  calArea(borderThickness = 0) {
+    return (
+      (22 / 7) *
+      (this.radius + borderThickness) *
+      (this.radius + borderThickness)
+    );
   }
 }
 

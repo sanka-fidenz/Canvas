@@ -7,8 +7,10 @@ class Rectangle extends Shape {
     this.height = height;
   }
 
-  calArea() {
-    return this.width * this.height;
+  calArea(borderThickness = 0) {
+    return (
+      (this.width + 2 * borderThickness) * (this.height + 2 * borderThickness)
+    );
   }
 }
 

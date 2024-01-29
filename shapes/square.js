@@ -6,8 +6,10 @@ class Square extends Shape {
     this.length = length;
   }
 
-  calArea() {
-    return this.length * this.length;
+  calArea(borderThickness = 0) {
+    return (
+      (this.length + 2 * borderThickness) * (this.length + 2 * borderThickness)
+    );
   }
 }
 
