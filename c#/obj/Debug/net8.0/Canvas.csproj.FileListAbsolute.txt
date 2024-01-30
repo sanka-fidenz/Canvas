@@ -1,0 +1,15 @@
+C:\Fidenz\Assigments\Canvas\c#\bin\Debug\net8.0\Canvas.exe
+C:\Fidenz\Assigments\Canvas\c#\bin\Debug\net8.0\Canvas.deps.json
+C:\Fidenz\Assigments\Canvas\c#\bin\Debug\net8.0\Canvas.runtimeconfig.json
+C:\Fidenz\Assigments\Canvas\c#\bin\Debug\net8.0\Canvas.dll
+C:\Fidenz\Assigments\Canvas\c#\bin\Debug\net8.0\Canvas.pdb
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.AssemblyInfoInputs.cache
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.AssemblyInfo.cs
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.csproj.CoreCompileInputs.cache
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.sourcelink.json
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.dll
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\refint\Canvas.dll
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.pdb
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\Canvas.genruntimeconfig.cache
+C:\Fidenz\Assigments\Canvas\c#\obj\Debug\net8.0\ref\Canvas.dll
