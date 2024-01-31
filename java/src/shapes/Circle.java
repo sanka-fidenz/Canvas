@@ -10,9 +10,6 @@ public class Circle extends Shape {
     }
 
     public int calculateArea(boolean withBorder) {
-        if (withBorder) {
-            return (22 / 7) * (radius + borderThickness) * (radius + borderThickness);
-        }
-        return (22 / 7) * radius * radius;
+        return (22 / 7) * (radius + (withBorder ? borderThickness : 0)) * (radius + (withBorder ? borderThickness : 0));
     }
 }

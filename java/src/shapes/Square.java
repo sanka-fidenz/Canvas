@@ -9,9 +9,6 @@ public class Square extends Shape {
     }
 
     public int calculateArea(boolean withBorder) {
-        if (withBorder) {
-            return (length + borderThickness) * (length + borderThickness);
-        }
-        return length * length;
+        return (length + 2 * (withBorder ? borderThickness : 0)) * (length + 2 * (withBorder ? borderThickness : 0));
     }
 }

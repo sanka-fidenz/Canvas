@@ -11,9 +11,6 @@ public class Rectangle extends Shape {
     }
 
     public int calculateArea(boolean withBorder) {
-        if (withBorder) {
-            return (width + borderThickness) * (height + borderThickness);
-        }
-        return width * height;
+        return (width + 2 * (withBorder ? borderThickness : 0)) * (height + 2 * (withBorder ? borderThickness : 0));
     }
 }
