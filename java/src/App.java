@@ -15,7 +15,7 @@ public class App {
          canvas.addShape(shape);
       }
 
-      System.err.println("Total area of shapes with the border: " + canvas.getTotalAreaWithBorder());
+      System.err.println("Total area of shapes with the border:    " + canvas.getTotalAreaWithBorder());
       System.err.println("Total area of shapes without the border: " + canvas.getTotalAreaWithoutBorder());
       System.err.println("Total area of the border of all shapes:  " + (canvas.getTotalAreaOfBorders()));
    }

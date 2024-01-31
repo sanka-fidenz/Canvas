@@ -4,17 +4,17 @@ import java.util.List;
 import shapes.Shape;
 
 public class Canvas {
-    List<Shape> shapes;
+    private List<Shape> shapes;
 
-    Canvas() {
+    public Canvas() {
         shapes = new ArrayList<Shape>();
     }
 
-    void addShape(Shape shape) {
+    public void addShape(Shape shape) {
         this.shapes.add(shape);
     }
 
-    int calTotalArea(boolean withBorder) {
+    private int calTotalArea(boolean withBorder) {
         int sum = 0;
 
         for (int i = 0; i < shapes.size(); i++)
@@ -23,15 +23,15 @@ public class Canvas {
         return sum;
     }
 
-    int getTotalAreaWithBorder() {
+    public int getTotalAreaWithBorder() {
         return calTotalArea(true);
     }
 
-    int getTotalAreaWithoutBorder() {
+    public int getTotalAreaWithoutBorder() {
         return calTotalArea(false);
     }
 
-    int getTotalAreaOfBorders() {
+    public int getTotalAreaOfBorders() {
         int sum = 0;
 
         for (int i = 0; i < shapes.size(); i++)
